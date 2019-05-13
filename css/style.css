@@ -1,0 +1,376 @@
+body {
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #400711;
+  color: #F2BBBF;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  background-color: #F2BBBF;
+  color: #400711;
+  font-size: 18px;
+  font-weight: bold;
+  border: 0.5px #F2BBBF;
+  padding: 3px;
+}
+
+.btn-primary:hover {
+  border: 1px #F28888 solid;
+  box-shadow: 1px 1px 1px #F28888;
+  color: white;
+  background-color: #F28888;
+}
+
+.btn-primary:active {
+  border: 1px #F28888 solid;
+  box-shadow: 1px 1px 1px #F28888;
+  color: white;
+  background-color: #F28888;
+}
+
+h1 {
+  color: #F2BBBF;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif margin: 0px;
+}
+
+.p {
+  width: 360px;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 18px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #F2BBBF;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #eee;
+  color: #400711;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+.leaflet-popup-tip {
+  background: #eee;
+}
+
+.modal.header {
+  height: 50px;
+}
+
+.modal-title {
+  padding: 0px;
+  color: #400711;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.modal-body {
+  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  word-wrap: break-word;
+  color: #400711;
+  margin: 5px;
+}
+
+h3 {
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: #400711;
+}
+
+#map {
+  position: absolute;
+  right: 0px;
+  left: 400px;
+  height: 100%;
+  top: 43px;
+}
+
+#basemaps-wrapper {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  z-index: 400;
+  background: opacity;
+  padding: 10px;
+}
+
+#basemaps {
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  color: #400711;
+}
+
+#census-wrapper {
+  position: absolute;
+  top: 45px;
+  right: 210px;
+  z-index: 400;
+  background: opacity;
+  padding: 10px;
+}
+
+#census {
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  color: #400711;
+}
+
+.sidebar {
+  position: absolute;
+  left: 0px;
+  width: 400px;
+  top: 43px;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 20px;
+  font-size: 16px;
+  background: #400711;
+  color: #F2BBBF;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.modal {
+  z-index: 1100;
+}
+
+.modal-dialog {
+  margin: 2px auto;
+  z-index: 1000 !important;
+}
+
+.modal-content {
+  overflow-x: hidden;
+}
+
+#menu {
+  position: absolute;
+  background: #400711;
+  right: 0px;
+  top: 20px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+#buttonarea {
+  position: absolute;
+  background: #400711;
+  left: 15px;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  color: #444444;
+  background: #eee;
+  border: 1px #DADADA solid;
+  padding: 0px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 11pt;
+  outline: none;
+}
+
+button:hover {
+  border: 1px #C6C6C6 solid;
+  box-shadow: 1px 1px 1px #EAEAEA;
+  color: #333333;
+  background: #F7F7F7;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 1px #DFDFDF;
+}
+
+button.blue {
+  box-shadow: 0px 4px #C06C84;
+}
+
+button.blue:active {
+  box-shadow: 0 0 #C06C84;
+  background-color: #C06C84;
+  color: white;
+}
+
+button.purple {
+  box-shadow: 0px 4px 0px #F67280;
+}
+
+button.purple:active {
+  box-shadow: 0 0 #F67280;
+  background-color: #F67280;
+  color: white;
+}
+
+button.cyan {
+  box-shadow: 0px 4px 0px #BF3945;
+}
+
+button.cyan:active {
+  box-shadow: 0 0 #BF3945;
+  background-color: #BF3945;
+  color: white;
+}
+
+button.red {
+  box-shadow: 0px 4px 0px #A64636;
+}
+
+button.red:active {
+  box-shadow: 0 0 #A64636;
+  background-color: #A64636;
+  color: white;
+}
+
+.item {
+  padding: 10px;
+  background-color: #eee;
+  color: #400711;
+  margin-left: 5px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.item-heading {
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: bold;
+  color: #BF3945;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.card {
+  border: 2px solid #22354f;
+  width: 300px;
+  margin-bottom: 35px;
+  padding: 15px 0;
+  color: #444444;
+  background: #F3F3F3;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  clear: both;
+}
+
+.station-name {
+  width: 250px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ff4c4b;
+  word-wrap: break-word;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.route-name {
+  width: 250px;
+  font-family: "sans-serif";
+  font-size: 18px;
+  line-height: 20px;
+  color: #BA8CB5;
+  word-wrap: break-word;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.street-name {
+  width: 250px;
+  font-family: "sans-serif";
+  font-size: 16px;
+  line-height: 20px;
+  color: #70B4C4;
+  word-wrap: break-word;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tod-score {
+  width: 250px;
+  font-family: "sans-serif";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 28px;
+  color: #428bca;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.textinfo {
+  width: 350px;
+  font-family: "sans-serif";
+  font-style: italic;
+  font-size: 16px;
+  line-height: 16px;
+  color: #3b3b3b;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.legend {
+  background-color: opacity;
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+.legend h4 {
+  margin: 0 0 5px;
+}
+
+.legend i {
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}

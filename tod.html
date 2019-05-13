@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- CSS Imports -->
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css" integrity="sha256-XzD3RpaHPv7lzX9qt+2n1j5cWj48O24KsgaGYpKN8x8=" crossorigin="anonymous" />
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" integrity="sha256-YR4HrDE479EpYZgeTkQfgVJq08+277UXxMLbi/YP69o=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-assembly/v0.23.2/assembly.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" integrity="sha256-aan9tQnm7lVach/6JxYyrQRlheajRD+UBDwwWo3tAHQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="header" id="header">
+    <h1>LIRR TOD Opportunity Rating System</h1>
+  </div>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Introduction
+  </button>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+
+    <div id="numberarea">
+      <label id="number-label1" for="numeric-input1" style="padding-right: 5px;">Min TOD Score:</label><input type="number" id="numeric-input1" style="background: #eee;"><br><br>
+      <label id="number-label2" for="numeric-input2" style="padding-right: 5px;">Max TOD Score:</label><input type="number" id="numeric-input2" style="background: #eee;"><br><br>
+    </div>
+    <div class="button-area" id="buttonarea">
+      <button class="blue" id="buffer">Show buffer</button>
+      <button class="cyan" id="bufferoff">Hide buffer</button>
+      <button class="purple" id="filter">Filter</button>
+      <button class="red" id="reset">Reset</button>
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid clearfix" style="padding-left: 0px; padding-right: 30px">
+      <div class="item">
+        <h2 class="item-heading">Station</h2>
+        <div id="station"></div>
+      </div>
+      <div class="item">
+        <h2 class="item-heading">Route</h2>
+        <div id="route"></div>
+      </div>
+      <div class="item">
+        <h2 class="item-heading">Street</h2>
+        <div id="street"></div>
+      </div>
+      <div class="item">
+        <h2 class="item-heading">TOD Score</h2>
+        <div id="tod"></div>
+      </div>
+    </div>
+    <br>
+    <div class="chart" id="chartContainer" style="padding-left: 0px; width: 99%; height: 380px"></div>
+  </div>
+  <!-- Map -->
+  <div id="map">
+  </div>
+
+  <div id="basemaps-wrapper" class="leaflet-bar">
+    <select name="basemaps" id="basemaps" onChange="changeBasemap(basemaps)">
+      <option>Basemap</option>
+      <option value="Topographic">Topographic</option>
+      <option value="Streets">Streets</option>
+      <option value="NationalGeographic">National Geographic</option>
+      <option value="Oceans">Oceans</option>
+      <option value="Gray">Gray</option>
+      <option value="DarkGray">Dark Gray</option>
+      <option value="Imagery">Imagery</option>
+      <option value="ImageryClarity">Imagery (Clarity)</option>
+      <option value="ImageryFirefly">Imagery (Firefly)</option>
+      <option value="ShadedRelief">Shaded Relief</option>
+    </select>
+  </div>
+
+  <div id="census-wrapper" class="leaflet-bar">
+    <select name="census" id="census" onChange="changeCensus(census)">
+      <option value="censusnull">Census Layer</option>
+      <option value="Pop_Den">Popolation Density</option>
+      <option value="HH_Den">Household Density</option>
+      <option value="Med_Age">Median Age</option>
+      <option value="Pct_Bch">Pct Bachelor Degree</option>
+      <option value="Pct_Unm">Unemployment Rate</option>
+      <option value="Pct_Pvr">Poverty Rate</option>
+    </select>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content" id="modal-content">
+        <div class="modal-header" style="padding-top: 5px; padding-bottom: 10px">
+          <h2 class="modal-title" id="exampleModalLongTitle">Welcome to LIRR TOD Opportunity System!</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3>Problem Statement</h3>
+          <p>This application is based on the proposed high-speed rail lines and stations in the Rebooting New England studio report, using weighted multi-criteria evaluation method to identify the station with the most TOD opportunity. The
+            aplication is designed as a web-based TOD opportunity rating system which aims to provide a friendly interface to a variety of public and private users, such as developers, decision-makers, researchers, and business owners.</p>
+          <br>
+          <h3>Data</h3>
+          <p>The spatial data includes 122 existing Long Island rail stations, 8 Long Island rail routes, 0.5-miles buffers for the 122 rail stations. All these spatial data are in geojson format.
+            The attribute data includes 11 quantitative indicators for calculating TOD scores:</br></p>
+          <ul type="disc">
+            <li>Transit Connectivity Index (TCI)</li>
+            <li>Number of transit-accessible jobs via a 30-minute transit ride</li>
+            <li>Ratio of transit to auto travel time</li>
+            <li>Total number of residents and employees</li>
+            <li>Ratio of households with no car available</li>
+            <li>Ratio of non-car commute mode</li>
+            <li>Walk score</li>
+            <li>Number of high income customer households</li>
+            <li>Ratio of high intensity development area</li>
+            <li>Ratio of underutilized land</li>
+            <li>Median house value for all occupied housing units</li>
+          </ul>
+          <br>
+          <p>The census data at census block group level are also collected and joined to each 0.5-miles buffer. These socio-economic features are supplementary to the 11 criteria:</br>
+            <ul type="disc">
+              <li>Population density (ppl/sqmi.)</li>
+              <li>Household density (hh/sqmi.)</li>
+              <li>Median age</li>
+              <li>Percent of Bachelor degree</li>
+              <li>Unemployment rate</li>
+              <li>Poverty rate</li>
+            </ul>
+            <br>
+            <h3>How to use it</h3>
+            <p>The functions provided by this application include:</br></p>
+            <ul>
+              <li>Change basemap layer, 10 basemap options;</li>
+              <li>Change census data layer, 6 socio-economic attributes at census block group;</li>
+              <li>Click a station or a buffer diaplay the stopname, route, street and TOD score info</li>
+              <li>Click a station and display a popup radar chart showing the value of criteria</li>
+              <li>Click a station buffer and display a popup census information within the buffer</li>
+              <li>Highlight a route segment when mouseover</li>
+              <li>Filter the stations according to the inputs of min and max TOD scores</li>
+              <li>Display a weights of criteria bar chart.</li>
+            </ul>
+            <br>
+            <h3>Get started and good luck!</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Javascript Imports -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js" integrity="sha256-6BZRSENq3kxI4YYBDqJ23xg0r1GwTHEpvp3okdaIqBw=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js" integrity="sha256-O4179En8zabOlPYBNvGp8cF0uh0vnSZpW4Q6Ul1h+8c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+  <script src="https://unpkg.com/esri-leaflet@2.2.4/dist/esri-leaflet.js" integrity="sha512-tyPum7h2h36X52O2gz+Pe8z/3l+Y9S1yEUscbVs5r5aEY5dFmP1WWRY/WLLElnFHa+k1JBQZSCDGwEAnm2IxAQ==" crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js" integrity="sha256-jzmB6xy6L0YPzPeu+ccUiPKp3UE+qRmo5xmq5BbnSv0=" crossorigin="anonymous"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js" integrity="sha256-rjYnB0Bull7k2XkbJ03UNGqMuMieR769uQVGSSlsi6A=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script async defer src="https://api.mapbox.com/mapbox-assembly/v0.23.2/assembly.js"></script>
+  <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+  <script src="station.geojson"></script>
+  <script src="buffer.geojson"></script>
+  <script src="line.geojson"></script>
+  <script src="bufferinfo.geojson"></script>
+  <script src="block.geojson"></script>
+  <script src="js/jquery.canvasjs.min.js"></script>
+  <script src="js/canvasjs.min.js"></script>
+  <script src="js/leaflet-mapbox-gl.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

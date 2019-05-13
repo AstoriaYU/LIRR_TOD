@@ -1,0 +1,3176 @@
+var stationGeoJson = {
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "stopname": "Long Island City",
+      "routename": "Babylon",
+      "streetname": "I- 495",
+      "County": "Queens",
+      "stopname_1": "Long Island City",
+      "TCI": 72.58,
+      "job_access": 98.35,
+      "AT_ratio": 73.91,
+      "intensity": 48.9,
+      "HH_0_car": 74.96,
+      "WK_0_car": 86.85,
+      "walkscore": 91.84,
+      "customer_a": 91.73,
+      "high_dev": 89.95,
+      "avlb_land": 0.58,
+      "Med_Hval": 39.03,
+      "stopname_2": "Long Island City",
+      "TOD_score": 90.17
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.95639, 40.74128]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Hunterspoint Avenue",
+      "routename": "Port Jefferson",
+      "streetname": "49th Ave",
+      "County": "Queens",
+      "stopname_1": "Hunterspoint Avenue",
+      "TCI": 80.65,
+      "job_access": 100,
+      "AT_ratio": 28.97,
+      "intensity": 44.03,
+      "HH_0_car": 95.02,
+      "WK_0_car": 98.33,
+      "walkscore": 85.71,
+      "customer_a": 98.29,
+      "high_dev": 98.67,
+      "avlb_land": 0,
+      "Med_Hval": 38.16,
+      "stopname_2": "Hunterspoint Avenue",
+      "TOD_score": 95.55
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.94679, 40.74238]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Woodside",
+      "routename": "Port Washington",
+      "streetname": "Roosevelt Ave",
+      "County": "Queens",
+      "stopname_1": "Woodside",
+      "TCI": 61.29,
+      "job_access": 78.06,
+      "AT_ratio": 73.91,
+      "intensity": 75.74,
+      "HH_0_car": 68.96,
+      "WK_0_car": 80.71,
+      "walkscore": 95.92,
+      "customer_a": 68.34,
+      "high_dev": 97.7,
+      "avlb_land": 1.75,
+      "Med_Hval": 25.96,
+      "stopname_2": "Woodside",
+      "TOD_score": 76.51
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90297, 40.74584]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Forest Hills",
+      "routename": "Babylon",
+      "streetname": "Burns St",
+      "County": "Queens",
+      "stopname_1": "Forest Hills",
+      "TCI": 46.77,
+      "job_access": 56.4,
+      "AT_ratio": 66.09,
+      "intensity": 43.87,
+      "HH_0_car": 68.37,
+      "WK_0_car": 74.8,
+      "walkscore": 87.76,
+      "customer_a": 53.22,
+      "high_dev": 40.92,
+      "avlb_land": 56.03,
+      "Med_Hval": 16.16,
+      "stopname_2": "Forest Hills",
+      "TOD_score": 58.92
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.84481, 40.71957]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Kew Gardens",
+      "routename": "Babylon",
+      "streetname": "Audley St",
+      "County": "Queens",
+      "stopname_1": "Kew Gardens",
+      "TCI": 59.68,
+      "job_access": 41.9,
+      "AT_ratio": 66.72,
+      "intensity": 40.03,
+      "HH_0_car": 36.46,
+      "WK_0_car": 43.7,
+      "walkscore": 71.43,
+      "customer_a": 51.24,
+      "high_dev": 33.66,
+      "avlb_land": 55.25,
+      "Med_Hval": 66.81,
+      "stopname_2": "Kew Gardens",
+      "TOD_score": 53.05
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.83089, 40.70964]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Atlantic Terminal",
+      "routename": "Babylon",
+      "streetname": "Hanson Pl",
+      "County": "Kings",
+      "stopname_1": "Atlantic Terminal",
+      "TCI": 100,
+      "job_access": 95.81,
+      "AT_ratio": 67.23,
+      "intensity": 30.04,
+      "HH_0_car": 76.28,
+      "WK_0_car": 97.1,
+      "walkscore": 97.96,
+      "customer_a": 100,
+      "high_dev": 84.38,
+      "avlb_land": 2.92,
+      "Med_Hval": 90.45,
+      "stopname_2": "Atlantic Terminal",
+      "TOD_score": 100
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97768, 40.684901]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Nostrand Avenue",
+      "routename": "Babylon",
+      "streetname": "Atlantic Ave",
+      "County": "Kings",
+      "stopname_1": "Nostrand Avenue",
+      "TCI": 66.13,
+      "job_access": 61.89,
+      "AT_ratio": 59.04,
+      "intensity": 61.45,
+      "HH_0_car": 100,
+      "WK_0_car": 100,
+      "walkscore": 97.96,
+      "customer_a": 67.52,
+      "high_dev": 84.99,
+      "avlb_land": 0.78,
+      "Med_Hval": 42.73,
+      "stopname_2": "Nostrand Avenue",
+      "TOD_score": 77.29
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.94822, 40.67838]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "East New York",
+      "routename": "Babylon",
+      "streetname": "E New York Ave",
+      "County": "Kings",
+      "stopname_1": "East New York",
+      "TCI": 43.55,
+      "job_access": 4.95,
+      "AT_ratio": 58.02,
+      "intensity": 42.88,
+      "HH_0_car": 38.21,
+      "WK_0_car": 75.7,
+      "walkscore": 85.71,
+      "customer_a": 33.5,
+      "high_dev": 88.14,
+      "avlb_land": 6.81,
+      "Med_Hval": 29.48,
+      "stopname_2": "East New York",
+      "TOD_score": 37.78
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.90281, 40.6758]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Jamaica",
+      "routename": "Babylon",
+      "streetname": "Archer Ave",
+      "County": "Queens",
+      "stopname_1": "Jamaica",
+      "TCI": 79.03,
+      "job_access": 51.16,
+      "AT_ratio": 60.87,
+      "intensity": 38.23,
+      "HH_0_car": 58.86,
+      "WK_0_car": 75.14,
+      "walkscore": 87.76,
+      "customer_a": 73.6,
+      "high_dev": 100,
+      "avlb_land": 3.89,
+      "Med_Hval": 24.69,
+      "stopname_2": "Jamaica",
+      "TOD_score": 69.47
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80853, 40.6996]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Flushing Main Street",
+      "routename": "Port Washington",
+      "streetname": "41st Ave",
+      "County": "Queens",
+      "stopname_1": "Flushing Main Street",
+      "TCI": 38.71,
+      "job_access": 13.17,
+      "AT_ratio": 62.51,
+      "intensity": 73.58,
+      "HH_0_car": 87.55,
+      "WK_0_car": 82.39,
+      "walkscore": 100,
+      "customer_a": 33.98,
+      "high_dev": 95.76,
+      "avlb_land": 3.5,
+      "Med_Hval": 35.09,
+      "stopname_2": "Flushing Main Street",
+      "TOD_score": 49.24
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.83135, 40.75789]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Murray Hill",
+      "routename": "Port Washington",
+      "streetname": "41st Ave",
+      "County": "Queens",
+      "stopname_1": "Murray Hill",
+      "TCI": 30.65,
+      "job_access": 18.95,
+      "AT_ratio": 60.54,
+      "intensity": 26.73,
+      "HH_0_car": 16.69,
+      "WK_0_car": 38.24,
+      "walkscore": 98.98,
+      "customer_a": 26.36,
+      "high_dev": 51.09,
+      "avlb_land": 7.98,
+      "Med_Hval": 36.32,
+      "stopname_2": "Murray Hill",
+      "TOD_score": 29.19
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.81454, 40.7627]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Broadway",
+      "routename": "Port Washington",
+      "streetname": "Station Rd",
+      "County": "Queens",
+      "stopname_1": "Broadway",
+      "TCI": 25.81,
+      "job_access": 10.92,
+      "AT_ratio": 76.51,
+      "intensity": 45.32,
+      "HH_0_car": 73.06,
+      "WK_0_car": 60.42,
+      "walkscore": 95.92,
+      "customer_a": 24.31,
+      "high_dev": 34.26,
+      "avlb_land": 23.15,
+      "Med_Hval": 2.94,
+      "stopname_2": "Broadway",
+      "TOD_score": 32.66
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.80176, 40.76164]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Auburndale",
+      "routename": "Port Washington",
+      "streetname": "192nd St",
+      "County": "Queens",
+      "stopname_1": "Auburndale",
+      "TCI": 29.03,
+      "job_access": 13.12,
+      "AT_ratio": 54.88,
+      "intensity": 51.04,
+      "HH_0_car": 4.1,
+      "WK_0_car": 42.25,
+      "walkscore": 80.61,
+      "customer_a": 29.92,
+      "high_dev": 45.64,
+      "avlb_land": 17.12,
+      "Med_Hval": 13.34,
+      "stopname_2": "Auburndale",
+      "TOD_score": 25.09
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.78996, 40.76143]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Bayside",
+      "routename": "Port Washington",
+      "streetname": "41st Rd",
+      "County": "Queens",
+      "stopname_1": "Bayside",
+      "TCI": 17.74,
+      "job_access": 11.53,
+      "AT_ratio": 51.08,
+      "intensity": 22.62,
+      "HH_0_car": 15.23,
+      "WK_0_car": 49.61,
+      "walkscore": 72.45,
+      "customer_a": 25.57,
+      "high_dev": 37.65,
+      "avlb_land": 21.4,
+      "Med_Hval": 29,
+      "stopname_2": "Bayside",
+      "TOD_score": 23.15
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.77125, 40.76314]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Douglaston",
+      "routename": "Port Washington",
+      "streetname": "41st Ave",
+      "County": "Queens",
+      "stopname_1": "Douglaston",
+      "TCI": 20.97,
+      "job_access": 10.32,
+      "AT_ratio": 54.48,
+      "intensity": 45.07,
+      "HH_0_car": 17.72,
+      "WK_0_car": 36.12,
+      "walkscore": 62.24,
+      "customer_a": 19.73,
+      "high_dev": 6.17,
+      "avlb_land": 48.64,
+      "Med_Hval": 25.32,
+      "stopname_2": "Douglaston",
+      "TOD_score": 20.27
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.74941, 40.76806]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Little Neck",
+      "routename": "Port Washington",
+      "streetname": "39th Rd",
+      "County": "Queens",
+      "stopname_1": "Little Neck",
+      "TCI": 19.35,
+      "job_access": 6.21,
+      "AT_ratio": 32.41,
+      "intensity": 32.89,
+      "HH_0_car": 5.71,
+      "WK_0_car": 34.34,
+      "walkscore": 74.49,
+      "customer_a": 13.97,
+      "high_dev": 2.91,
+      "avlb_land": 54.09,
+      "Med_Hval": 35.52,
+      "stopname_2": "Little Neck",
+      "TOD_score": 15.41
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.74065, 40.77504]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Great Neck",
+      "routename": "Port Washington",
+      "streetname": "S Station Plz",
+      "County": "Nassau",
+      "stopname_1": "Great Neck",
+      "TCI": 17.74,
+      "job_access": 11.09,
+      "AT_ratio": 46.84,
+      "intensity": 50.08,
+      "HH_0_car": 62.66,
+      "WK_0_car": 27.09,
+      "walkscore": 92.86,
+      "customer_a": 18.77,
+      "high_dev": 23.49,
+      "avlb_land": 43.97,
+      "Med_Hval": 14.4,
+      "stopname_2": "Great Neck",
+      "TOD_score": 26.08
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.7261, 40.78721]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Manhasset",
+      "routename": "Port Washington",
+      "streetname": "Hillside Ave",
+      "County": "Nassau",
+      "stopname_1": "Manhasset",
+      "TCI": 12.9,
+      "job_access": 9.87,
+      "AT_ratio": 47.13,
+      "intensity": 27.88,
+      "HH_0_car": 29.43,
+      "WK_0_car": 40.02,
+      "walkscore": 77.55,
+      "customer_a": 16.01,
+      "high_dev": 18.64,
+      "avlb_land": 80.54,
+      "Med_Hval": 41.11,
+      "stopname_2": "Manhasset",
+      "TOD_score": 23.23
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.6999, 40.79672]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Plandome",
+      "routename": "Port Washington",
+      "streetname": "Circle Dr",
+      "County": "Nassau",
+      "stopname_1": "Plandome",
+      "TCI": 6.45,
+      "job_access": 6.65,
+      "AT_ratio": 44.98,
+      "intensity": 38.14,
+      "HH_0_car": 2.2,
+      "WK_0_car": 48.16,
+      "walkscore": 14.29,
+      "customer_a": 10.08,
+      "high_dev": 0,
+      "avlb_land": 34.05,
+      "Med_Hval": 100,
+      "stopname_2": "Plandome",
+      "TOD_score": 16.62
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.69521, 40.81069]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Port Washington",
+      "routename": "Port Washington",
+      "streetname": "Haven Ave",
+      "County": "Nassau",
+      "stopname_1": "Port Washington",
+      "TCI": 11.29,
+      "job_access": 3.43,
+      "AT_ratio": 44.46,
+      "intensity": 38.8,
+      "HH_0_car": 64.13,
+      "WK_0_car": 73.02,
+      "walkscore": 58.16,
+      "customer_a": 5.3,
+      "high_dev": 25.54,
+      "avlb_land": 40.08,
+      "Med_Hval": 35.48,
+      "stopname_2": "Port Washington",
+      "TOD_score": 23.67
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.6874, 40.82903]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Hollis",
+      "routename": "Port Jefferson",
+      "streetname": "Sagamore Ave",
+      "County": "Queens",
+      "stopname_1": "Hollis",
+      "TCI": 29.03,
+      "job_access": 15.45,
+      "AT_ratio": 43.48,
+      "intensity": 49.04,
+      "HH_0_car": 42.17,
+      "WK_0_car": 47.94,
+      "walkscore": 80.61,
+      "customer_a": 35.68,
+      "high_dev": 38.98,
+      "avlb_land": 3.89,
+      "Med_Hval": 22.17,
+      "stopname_2": "Hollis",
+      "TOD_score": 31.61
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.76675, 40.71017]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Queens Village",
+      "routename": "Port Jefferson",
+      "streetname": "Amboy Ln",
+      "County": "Queens",
+      "stopname_1": "Queens Village",
+      "TCI": 35.48,
+      "job_access": 11.74,
+      "AT_ratio": 36.65,
+      "intensity": 23.33,
+      "HH_0_car": 18.45,
+      "WK_0_car": 31.66,
+      "walkscore": 77.55,
+      "customer_a": 30.66,
+      "high_dev": 53.03,
+      "avlb_land": 2.92,
+      "Med_Hval": 12.19,
+      "stopname_2": "Queens Village",
+      "TOD_score": 25.03
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.73646, 40.71745]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Belmont",
+      "routename": "Belmont",
+      "streetname": "Cross Island Pkwy",
+      "County": "Queens",
+      "stopname_1": "Belmont",
+      "TCI": 30.65,
+      "job_access": 11.61,
+      "AT_ratio": 66.72,
+      "intensity": 33.46,
+      "HH_0_car": 7.76,
+      "WK_0_car": 36.79,
+      "walkscore": 29.59,
+      "customer_a": 29.92,
+      "high_dev": 30.87,
+      "avlb_land": 26.26,
+      "Med_Hval": 16.44,
+      "stopname_2": "Belmont",
+      "TOD_score": 23.12
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.72862, 40.71549]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Bellerose",
+      "routename": "Port Jefferson",
+      "streetname": "Atlantic Ave",
+      "County": "Nassau",
+      "stopname_1": "Bellerose",
+      "TCI": 16.13,
+      "job_access": 8.76,
+      "AT_ratio": 62.77,
+      "intensity": 40.09,
+      "HH_0_car": 6.15,
+      "WK_0_car": 32.33,
+      "walkscore": 75.51,
+      "customer_a": 16.61,
+      "high_dev": 19.61,
+      "avlb_land": 68.29,
+      "Med_Hval": 21.94,
+      "stopname_2": "Bellerose",
+      "TOD_score": 18.83
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.71665, 40.7222]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Floral Park",
+      "routename": "Hempstead",
+      "streetname": "Atlantic Ave",
+      "County": "Nassau",
+      "stopname_1": "Floral Park",
+      "TCI": 8.06,
+      "job_access": 6.99,
+      "AT_ratio": 58.35,
+      "intensity": 71.85,
+      "HH_0_car": 8.64,
+      "WK_0_car": 29.1,
+      "walkscore": 83.67,
+      "customer_a": 7.48,
+      "high_dev": 38.98,
+      "avlb_land": 15.56,
+      "Med_Hval": 20.79,
+      "stopname_2": "Floral Park",
+      "TOD_score": 15.1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.7064, 40.72463]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Stewart Manor",
+      "routename": "Hempstead",
+      "streetname": "Plaza Rd",
+      "County": "Nassau",
+      "stopname_1": "Stewart Manor",
+      "TCI": 14.52,
+      "job_access": 8.49,
+      "AT_ratio": 64.19,
+      "intensity": 32.06,
+      "HH_0_car": 0,
+      "WK_0_car": 45.93,
+      "walkscore": 70.41,
+      "customer_a": 10.31,
+      "high_dev": 2.66,
+      "avlb_land": 89.3,
+      "Med_Hval": 34.05,
+      "stopname_2": "Stewart Manor",
+      "TOD_score": 17.32
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.68102, 40.72302]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Nassau Boulevard",
+      "routename": "Hempstead",
+      "streetname": "North Ave",
+      "County": "Nassau",
+      "stopname_1": "Nassau Boulevard",
+      "TCI": 8.06,
+      "job_access": 6.56,
+      "AT_ratio": 60.14,
+      "intensity": 58.57,
+      "HH_0_car": 0,
+      "WK_0_car": 36.01,
+      "walkscore": 58.16,
+      "customer_a": 6.93,
+      "high_dev": 0,
+      "avlb_land": 100,
+      "Med_Hval": 45.32,
+      "stopname_2": "Nassau Boulevard",
+      "TOD_score": 16.01
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.6627, 40.72295]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Garden City",
+      "routename": "Hempstead",
+      "streetname": "Huubbll Plz",
+      "County": "Nassau",
+      "stopname_1": "Garden City",
+      "TCI": 12.9,
+      "job_access": 7.93,
+      "AT_ratio": 52.61,
+      "intensity": 38.25,
+      "HH_0_car": 20.2,
+      "WK_0_car": 47.16,
+      "walkscore": 53.06,
+      "customer_a": 7.57,
+      "high_dev": 12.59,
+      "avlb_land": 74.9,
+      "Med_Hval": 46.73,
+      "stopname_2": "Garden City",
+      "TOD_score": 19.66
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.64036, 40.72309]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Country Life Press",
+      "routename": "Hempstead",
+      "streetname": "St James St",
+      "County": "Nassau",
+      "stopname_1": "Country Life Press",
+      "TCI": 14.52,
+      "job_access": 7.95,
+      "AT_ratio": 46.66,
+      "intensity": 42.63,
+      "HH_0_car": 12.45,
+      "WK_0_car": 35.01,
+      "walkscore": 71.43,
+      "customer_a": 6.76,
+      "high_dev": 14.04,
+      "avlb_land": 87.55,
+      "Med_Hval": 44.02,
+      "stopname_2": "Country Life Press",
+      "TOD_score": 18.65
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.62967, 40.72145]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Hempstead",
+      "routename": "Hempstead",
+      "streetname": "Morrell St",
+      "County": "Nassau",
+      "stopname_1": "Hempstead",
+      "TCI": 25.81,
+      "job_access": 9.81,
+      "AT_ratio": 46,
+      "intensity": 68.92,
+      "HH_0_car": 29.72,
+      "WK_0_car": 12.04,
+      "walkscore": 73.47,
+      "customer_a": 9.4,
+      "high_dev": 65.38,
+      "avlb_land": 11.48,
+      "Med_Hval": 7.11,
+      "stopname_2": "Hempstead",
+      "TOD_score": 21.02
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.62503, 40.71329]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "New Hyde Park",
+      "routename": "Port Jefferson",
+      "streetname": "2nd Ave",
+      "County": "Nassau",
+      "stopname_1": "New Hyde Park",
+      "TCI": 17.74,
+      "job_access": 14.61,
+      "AT_ratio": 41.14,
+      "intensity": 71.28,
+      "HH_0_car": 6.15,
+      "WK_0_car": 25.31,
+      "walkscore": 73.47,
+      "customer_a": 19.09,
+      "high_dev": 36.92,
+      "avlb_land": 37.16,
+      "Med_Hval": 19.43,
+      "stopname_2": "New Hyde Park",
+      "TOD_score": 20.83
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.68096, 40.73075]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Merillon Avenue",
+      "routename": "Port Jefferson",
+      "streetname": "Main St",
+      "County": "Nassau",
+      "stopname_1": "Merillon Avenue",
+      "TCI": 9.68,
+      "job_access": 9.76,
+      "AT_ratio": 35.66,
+      "intensity": 39.1,
+      "HH_0_car": 4.98,
+      "WK_0_car": 20.85,
+      "walkscore": 52.04,
+      "customer_a": 14.3,
+      "high_dev": 14.16,
+      "avlb_land": 63.81,
+      "Med_Hval": 36.34,
+      "stopname_2": "Merillon Avenue",
+      "TOD_score": 15.27
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.66252, 40.73516]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Mineola",
+      "routename": "Oyster Bay",
+      "streetname": "Station Rd",
+      "County": "Nassau",
+      "stopname_1": "Mineola",
+      "TCI": 19.35,
+      "job_access": 12.19,
+      "AT_ratio": 36.79,
+      "intensity": 65.88,
+      "HH_0_car": 18.59,
+      "WK_0_car": 60.54,
+      "walkscore": 76.53,
+      "customer_a": 16.69,
+      "high_dev": 50.73,
+      "avlb_land": 27.63,
+      "Med_Hval": 22.13,
+      "stopname_2": "Mineola",
+      "TOD_score": 24.78
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.64086, 40.74034]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "East Williston",
+      "routename": "Oyster Bay",
+      "streetname": "Sagamore Ave",
+      "County": "Nassau",
+      "stopname_1": "East Williston",
+      "TCI": 14.52,
+      "job_access": 7.32,
+      "AT_ratio": 33.43,
+      "intensity": 24.15,
+      "HH_0_car": 4.39,
+      "WK_0_car": 13.94,
+      "walkscore": 71.43,
+      "customer_a": 7.31,
+      "high_dev": 22.52,
+      "avlb_land": 56.23,
+      "Med_Hval": 19.99,
+      "stopname_2": "East Williston",
+      "TOD_score": 11.83
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.63941, 40.75601]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Albertson",
+      "routename": "Oyster Bay",
+      "streetname": "Albertson Ave",
+      "County": "Nassau",
+      "stopname_1": "Albertson",
+      "TCI": 8.06,
+      "job_access": 4.33,
+      "AT_ratio": 38.91,
+      "intensity": 47.12,
+      "HH_0_car": 0,
+      "WK_0_car": 27.2,
+      "walkscore": 58.16,
+      "customer_a": 2.54,
+      "high_dev": 3.39,
+      "avlb_land": 75.49,
+      "Med_Hval": 43.37,
+      "stopname_2": "Albertson",
+      "TOD_score": 11.22
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.64169, 40.77205]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Roslyn",
+      "routename": "Oyster Bay",
+      "streetname": "Church St",
+      "County": "Nassau",
+      "stopname_1": "Roslyn",
+      "TCI": 9.68,
+      "job_access": 4.19,
+      "AT_ratio": 70.04,
+      "intensity": 70.51,
+      "HH_0_car": 39.53,
+      "WK_0_car": 34.67,
+      "walkscore": 66.33,
+      "customer_a": 2.65,
+      "high_dev": 6.17,
+      "avlb_land": 69.65,
+      "Med_Hval": 24.32,
+      "stopname_2": "Roslyn",
+      "TOD_score": 18.12
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.64326, 40.79047]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Greenvale",
+      "routename": "Oyster Bay",
+      "streetname": "Plaza Rd",
+      "County": "Nassau",
+      "stopname_1": "Greenvale",
+      "TCI": 6.45,
+      "job_access": 3.35,
+      "AT_ratio": 66.46,
+      "intensity": 66.43,
+      "HH_0_car": 0,
+      "WK_0_car": 19.62,
+      "walkscore": 71.43,
+      "customer_a": 1.73,
+      "high_dev": 6.66,
+      "avlb_land": 29.18,
+      "Med_Hval": 28.38,
+      "stopname_2": "Greenvale",
+      "TOD_score": 8.82
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.62687, 40.81571]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Glen Head",
+      "routename": "Oyster Bay",
+      "streetname": "Railroad Ave",
+      "County": "Nassau",
+      "stopname_1": "Glen Head",
+      "TCI": 4.84,
+      "job_access": 2.47,
+      "AT_ratio": 53.78,
+      "intensity": 28.59,
+      "HH_0_car": 16.84,
+      "WK_0_car": 8.36,
+      "walkscore": 60.2,
+      "customer_a": 1.16,
+      "high_dev": 7.75,
+      "avlb_land": 73.15,
+      "Med_Hval": 22.4,
+      "stopname_2": "Glen Head",
+      "TOD_score": 9.18
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.62612, 40.83222]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Sea Cliff",
+      "routename": "Oyster Bay",
+      "streetname": "Sea Cliff Ave",
+      "County": "Nassau",
+      "stopname_1": "Sea Cliff",
+      "TCI": 6.45,
+      "job_access": 1.55,
+      "AT_ratio": 58.97,
+      "intensity": 57.17,
+      "HH_0_car": 0,
+      "WK_0_car": 10.14,
+      "walkscore": 78.57,
+      "customer_a": 0.98,
+      "high_dev": 16.22,
+      "avlb_land": 51.17,
+      "Med_Hval": 1.41,
+      "stopname_2": "Sea Cliff",
+      "TOD_score": 6.62
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.62542, 40.85236]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Glen Street",
+      "routename": "Oyster Bay",
+      "streetname": "Cedar Swamp Rd",
+      "County": "Nassau",
+      "stopname_1": "Glen Street",
+      "TCI": 8.06,
+      "job_access": 1.55,
+      "AT_ratio": 58.68,
+      "intensity": 63.88,
+      "HH_0_car": 18.59,
+      "WK_0_car": 20.96,
+      "walkscore": 28.57,
+      "customer_a": 0.98,
+      "high_dev": 14.29,
+      "avlb_land": 43.77,
+      "Med_Hval": 25.87,
+      "stopname_2": "Glen Street",
+      "TOD_score": 10.87
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.62122, 40.85797]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Glen Cove",
+      "routename": "Oyster Bay",
+      "streetname": "Saint Andrews Ln",
+      "County": "Nassau",
+      "stopname_1": "Glen Cove",
+      "TCI": 3.23,
+      "job_access": 1.17,
+      "AT_ratio": 61.31,
+      "intensity": 34.72,
+      "HH_0_car": 14.79,
+      "WK_0_car": 11.82,
+      "walkscore": 53.06,
+      "customer_a": 0.74,
+      "high_dev": 0,
+      "avlb_land": 34.44,
+      "Med_Hval": 31.21,
+      "stopname_2": "Glen Cove",
+      "TOD_score": 6.91
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.61616, 40.86583]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Locust Valley",
+      "routename": "Oyster Bay",
+      "streetname": "Elm St",
+      "County": "Nassau",
+      "stopname_1": "Locust Valley",
+      "TCI": 1.61,
+      "job_access": 0.72,
+      "AT_ratio": 56.23,
+      "intensity": 34.17,
+      "HH_0_car": 2.49,
+      "WK_0_car": 22.97,
+      "walkscore": 60.2,
+      "customer_a": 0.44,
+      "high_dev": 4.72,
+      "avlb_land": 28.02,
+      "Med_Hval": 22.33,
+      "stopname_2": "Locust Valley",
+      "TOD_score": 4.88
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.5983, 40.87446]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Oyster Bay",
+      "routename": "Oyster Bay",
+      "streetname": "Maxwell Ave",
+      "County": "Nassau",
+      "stopname_1": "Oyster Bay",
+      "TCI": 1.61,
+      "job_access": 0.2,
+      "AT_ratio": 54.07,
+      "intensity": 18.51,
+      "HH_0_car": 29.28,
+      "WK_0_car": 16.83,
+      "walkscore": 62.24,
+      "customer_a": 0.3,
+      "high_dev": 19.61,
+      "avlb_land": 25.29,
+      "Med_Hval": 27.69,
+      "stopname_2": "Oyster Bay",
+      "TOD_score": 8.88
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.53403, 40.87533]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Carle Place",
+      "routename": "Port Jefferson",
+      "streetname": "Atlantic Ave",
+      "County": "Nassau",
+      "stopname_1": "Carle Place",
+      "TCI": 16.13,
+      "job_access": 8.49,
+      "AT_ratio": 33.43,
+      "intensity": 37.87,
+      "HH_0_car": 2.64,
+      "WK_0_car": 16.72,
+      "walkscore": 58.16,
+      "customer_a": 7.91,
+      "high_dev": 20.94,
+      "avlb_land": 28.4,
+      "Med_Hval": 18.87,
+      "stopname_2": "Carle Place",
+      "TOD_score": 11.13
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.60365, 40.7492]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Westbury",
+      "routename": "Port Jefferson",
+      "streetname": "Union Ave",
+      "County": "Nassau",
+      "stopname_1": "Westbury",
+      "TCI": 16.13,
+      "job_access": 8.87,
+      "AT_ratio": 33.03,
+      "intensity": 77.66,
+      "HH_0_car": 44.95,
+      "WK_0_car": 27.2,
+      "walkscore": 84.69,
+      "customer_a": 7.07,
+      "high_dev": 28.21,
+      "avlb_land": 30.74,
+      "Med_Hval": 12.28,
+      "stopname_2": "Westbury",
+      "TOD_score": 19.85
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.58586, 40.75345]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Hicksville",
+      "routename": "Port Jefferson",
+      "streetname": "W Barclay St",
+      "County": "Nassau",
+      "stopname_1": "Hicksville",
+      "TCI": 19.35,
+      "job_access": 10.35,
+      "AT_ratio": 25.79,
+      "intensity": 34.47,
+      "HH_0_car": 0,
+      "WK_0_car": 52.62,
+      "walkscore": 59.18,
+      "customer_a": 6.96,
+      "high_dev": 61.38,
+      "avlb_land": 14.4,
+      "Med_Hval": 12.13,
+      "stopname_2": "Hicksville",
+      "TOD_score": 16.19
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.52853, 40.76717]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Syosset",
+      "routename": "Port Jefferson",
+      "streetname": "Jackson Ave",
+      "County": "Nassau",
+      "stopname_1": "Syosset",
+      "TCI": 3.23,
+      "job_access": 5.13,
+      "AT_ratio": 24.81,
+      "intensity": 4.11,
+      "HH_0_car": 3.07,
+      "WK_0_car": 18.62,
+      "walkscore": 44.9,
+      "customer_a": 2.4,
+      "high_dev": 17.31,
+      "avlb_land": 71.79,
+      "Med_Hval": 32.45,
+      "stopname_2": "Syosset",
+      "TOD_score": 7.98
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.50044, 40.82485]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Cold Spring Harbor",
+      "routename": "Port Jefferson",
+      "streetname": "Cold Spring Ln",
+      "County": "Suffolk",
+      "stopname_1": "Cold Spring Harbor",
+      "TCI": 6.45,
+      "job_access": 5.4,
+      "AT_ratio": 23.93,
+      "intensity": 33,
+      "HH_0_car": 0,
+      "WK_0_car": 23.3,
+      "walkscore": 32.65,
+      "customer_a": 2.97,
+      "high_dev": 0.85,
+      "avlb_land": 18.09,
+      "Med_Hval": 30.68,
+      "stopname_2": "Cold Spring Harbor",
+      "TOD_score": 5.11
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.45108, 40.83563]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Huntington",
+      "routename": "Port Jefferson",
+      "streetname": "Lenox Rd",
+      "County": "Suffolk",
+      "stopname_1": "Huntington",
+      "TCI": 11.29,
+      "job_access": 7.33,
+      "AT_ratio": 22.58,
+      "intensity": 93.04,
+      "HH_0_car": 37.77,
+      "WK_0_car": 21.85,
+      "walkscore": 35.71,
+      "customer_a": 4.46,
+      "high_dev": 19.13,
+      "avlb_land": 58.95,
+      "Med_Hval": 6.31,
+      "stopname_2": "Huntington",
+      "TOD_score": 15.81
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.40952, 40.853]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Greenlawn",
+      "routename": "Port Jefferson",
+      "streetname": "Gates St",
+      "County": "Suffolk",
+      "stopname_1": "Greenlawn",
+      "TCI": 8.06,
+      "job_access": 3.56,
+      "AT_ratio": 68.54,
+      "intensity": 62.21,
+      "HH_0_car": 11.86,
+      "WK_0_car": 11.59,
+      "walkscore": 53.06,
+      "customer_a": 2.08,
+      "high_dev": 10.65,
+      "avlb_land": 79.18,
+      "Med_Hval": 19.75,
+      "stopname_2": "Greenlawn",
+      "TOD_score": 11.94
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.36285, 40.86866]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Northport",
+      "routename": "Port Jefferson",
+      "streetname": "Bellerose Ave",
+      "County": "Suffolk",
+      "stopname_1": "Northport",
+      "TCI": 8.06,
+      "job_access": 3.96,
+      "AT_ratio": 100,
+      "intensity": 96.44,
+      "HH_0_car": 7.17,
+      "WK_0_car": 13.94,
+      "walkscore": 74.49,
+      "customer_a": 2.55,
+      "high_dev": 9.32,
+      "avlb_land": 77.04,
+      "Med_Hval": 15.77,
+      "stopname_2": "Northport",
+      "TOD_score": 14.28
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.32848, 40.88064]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Kings Park",
+      "routename": "Port Jefferson",
+      "streetname": "Meadow Rd W",
+      "County": "Suffolk",
+      "stopname_1": "Kings Park",
+      "TCI": 4.84,
+      "job_access": 2.5,
+      "AT_ratio": 98.28,
+      "intensity": 37.84,
+      "HH_0_car": 5.56,
+      "WK_0_car": 3.46,
+      "walkscore": 25.51,
+      "customer_a": 1.4,
+      "high_dev": 9.93,
+      "avlb_land": 70.23,
+      "Med_Hval": 13.1,
+      "stopname_2": "Kings Park",
+      "TOD_score": 8.13
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.25625, 40.88366]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Smithtown",
+      "routename": "Port Jefferson",
+      "streetname": "Redwood Ln",
+      "County": "Suffolk",
+      "stopname_1": "Smithtown",
+      "TCI": 6.45,
+      "job_access": 1,
+      "AT_ratio": 87.76,
+      "intensity": 31.08,
+      "HH_0_car": 13.76,
+      "WK_0_car": 7.92,
+      "walkscore": 21.43,
+      "customer_a": 0.72,
+      "high_dev": 15.38,
+      "avlb_land": 49.03,
+      "Med_Hval": 25.06,
+      "stopname_2": "Smithtown",
+      "TOD_score": 8.88
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.19803, 40.85654]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "St. James",
+      "routename": "Port Jefferson",
+      "streetname": "Norwood Ave",
+      "County": "Suffolk",
+      "stopname_1": "St. James",
+      "TCI": 4.84,
+      "job_access": 0.37,
+      "AT_ratio": 81.11,
+      "intensity": 29.44,
+      "HH_0_car": 12.01,
+      "WK_0_car": 12.04,
+      "walkscore": 45.92,
+      "customer_a": 0.34,
+      "high_dev": 2.78,
+      "avlb_land": 67.51,
+      "Med_Hval": 13.13,
+      "stopname_2": "St. James",
+      "TOD_score": 7.38
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.15951, 40.88216]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Stony Brook",
+      "routename": "Port Jefferson",
+      "streetname": "State Rte 25A",
+      "County": "Suffolk",
+      "stopname_1": "Stony Brook",
+      "TCI": 3.23,
+      "job_access": 0.25,
+      "AT_ratio": 65.62,
+      "intensity": 71.52,
+      "HH_0_car": 0,
+      "WK_0_car": 88.18,
+      "walkscore": 27.55,
+      "customer_a": 0.12,
+      "high_dev": 8.96,
+      "avlb_land": 43,
+      "Med_Hval": 14.04,
+      "stopname_2": "Stony Brook",
+      "TOD_score": 10.99
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.12855, 40.92031]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Port Jefferson",
+      "routename": "Port Jefferson",
+      "streetname": "Highlands Blvd",
+      "County": "Suffolk",
+      "stopname_1": "Port Jefferson",
+      "TCI": 4.84,
+      "job_access": 0.09,
+      "AT_ratio": 60.32,
+      "intensity": 22.15,
+      "HH_0_car": 3.37,
+      "WK_0_car": 4.68,
+      "walkscore": 68.37,
+      "customer_a": 0.03,
+      "high_dev": 21.91,
+      "avlb_land": 47.28,
+      "Med_Hval": 11.02,
+      "stopname_2": "Port Jefferson",
+      "TOD_score": 5.37
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.0525, 40.93454]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Bethpage",
+      "routename": "Montauk",
+      "streetname": "Railroad Ave",
+      "County": "Nassau",
+      "stopname_1": "Bethpage",
+      "TCI": 6.45,
+      "job_access": 7.41,
+      "AT_ratio": 54.22,
+      "intensity": 29.33,
+      "HH_0_car": 13.18,
+      "WK_0_car": 9.14,
+      "walkscore": 76.53,
+      "customer_a": 3.9,
+      "high_dev": 38.14,
+      "avlb_land": 16.15,
+      "Med_Hval": 18.98,
+      "stopname_2": "Bethpage",
+      "TOD_score": 11.03
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.48344, 40.74303]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Farmingdale",
+      "routename": "Ronkonkoma",
+      "streetname": "Depot Ave",
+      "County": "Nassau",
+      "stopname_1": "Farmingdale",
+      "TCI": 4.84,
+      "job_access": 8.3,
+      "AT_ratio": 51.52,
+      "intensity": 59.94,
+      "HH_0_car": 5.42,
+      "WK_0_car": 17.28,
+      "walkscore": 77.55,
+      "customer_a": 4.99,
+      "high_dev": 18.52,
+      "avlb_land": 56.61,
+      "Med_Hval": 5.26,
+      "stopname_2": "Farmingdale",
+      "TOD_score": 11.04
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.44124, 40.73591]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Pinelawn",
+      "routename": "Ronkonkoma",
+      "streetname": "Long Island Ave",
+      "County": "Suffolk",
+      "stopname_1": "Pinelawn",
+      "TCI": 3.23,
+      "job_access": 6.96,
+      "AT_ratio": 52.32,
+      "intensity": 22.32,
+      "HH_0_car": 8.49,
+      "WK_0_car": 19.18,
+      "walkscore": 5.1,
+      "customer_a": 4.31,
+      "high_dev": 0.61,
+      "avlb_land": 28.4,
+      "Med_Hval": 6.36,
+      "stopname_2": "Pinelawn",
+      "TOD_score": 4.81
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.3996, 40.74535]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Wyandanch",
+      "routename": "Ronkonkoma",
+      "streetname": "Long Island Ave",
+      "County": "Suffolk",
+      "stopname_1": "Wyandanch",
+      "TCI": 6.45,
+      "job_access": 6.77,
+      "AT_ratio": 86.59,
+      "intensity": 60.82,
+      "HH_0_car": 37.04,
+      "WK_0_car": 5.35,
+      "walkscore": 70.41,
+      "customer_a": 4.58,
+      "high_dev": 28.81,
+      "avlb_land": 71.98,
+      "Med_Hval": 2.97,
+      "stopname_2": "Wyandanch",
+      "TOD_score": 17.07
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.35806, 40.75479]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Deer Park",
+      "routename": "Ronkonkoma",
+      "streetname": "Pine Aire Dr",
+      "County": "Suffolk",
+      "stopname_1": "Deer Park",
+      "TCI": 4.84,
+      "job_access": 5.56,
+      "AT_ratio": 73.91,
+      "intensity": 29.24,
+      "HH_0_car": 3.66,
+      "WK_0_car": 12.82,
+      "walkscore": 44.9,
+      "customer_a": 3.27,
+      "high_dev": 35.59,
+      "avlb_land": 23.54,
+      "Med_Hval": 7.94,
+      "stopname_2": "Deer Park",
+      "TOD_score": 8.44
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.29356, 40.76948]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Brentwood",
+      "routename": "Ronkonkoma",
+      "streetname": "Suffolk Ave",
+      "County": "Suffolk",
+      "stopname_1": "Brentwood",
+      "TCI": 4.84,
+      "job_access": 4.34,
+      "AT_ratio": 69.46,
+      "intensity": 23.77,
+      "HH_0_car": 67.5,
+      "WK_0_car": 25.64,
+      "walkscore": 36.73,
+      "customer_a": 2.66,
+      "high_dev": 13.92,
+      "avlb_land": 53.31,
+      "Med_Hval": 9.04,
+      "stopname_2": "Brentwood",
+      "TOD_score": 16.57
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.24361, 40.78083]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Central Islip",
+      "routename": "Ronkonkoma",
+      "streetname": "E Suffolk Ave",
+      "County": "Suffolk",
+      "stopname_1": "Central Islip",
+      "TCI": 4.84,
+      "job_access": 3.11,
+      "AT_ratio": 63.54,
+      "intensity": 100,
+      "HH_0_car": 24.16,
+      "WK_0_car": 18.17,
+      "walkscore": 38.78,
+      "customer_a": 1.8,
+      "high_dev": 18.04,
+      "avlb_land": 80.16,
+      "Med_Hval": 6.01,
+      "stopname_2": "Central Islip",
+      "TOD_score": 13.85
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.19486, 40.79184]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Ronkonkoma",
+      "routename": "Ronkonkoma",
+      "streetname": "Railroad Ave",
+      "County": "Suffolk",
+      "stopname_1": "Ronkonkoma",
+      "TCI": 3.23,
+      "job_access": 5.49,
+      "AT_ratio": 58.35,
+      "intensity": 30.26,
+      "HH_0_car": 0,
+      "WK_0_car": 8.14,
+      "walkscore": 29.59,
+      "customer_a": 3.49,
+      "high_dev": 25.3,
+      "avlb_land": 42.02,
+      "Med_Hval": 10.96,
+      "stopname_2": "Ronkonkoma",
+      "TOD_score": 6.67
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.10594, 40.80808]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Medford",
+      "routename": "Ronkonkoma",
+      "streetname": "Long Island Ave",
+      "County": "Suffolk",
+      "stopname_1": "Medford",
+      "TCI": 1.61,
+      "job_access": 0.13,
+      "AT_ratio": 55.28,
+      "intensity": 23.41,
+      "HH_0_car": 3.95,
+      "WK_0_car": 24.19,
+      "walkscore": 18.37,
+      "customer_a": 0.13,
+      "high_dev": 10.9,
+      "avlb_land": 65.37,
+      "Med_Hval": 7.48,
+      "stopname_2": "Medford",
+      "TOD_score": 4.75
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.99891, 40.81739]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Yaphank",
+      "routename": "Ronkonkoma",
+      "streetname": "Yaphank Ave",
+      "County": "Suffolk",
+      "stopname_1": "Yaphank",
+      "TCI": 0,
+      "job_access": 0.04,
+      "AT_ratio": 53.23,
+      "intensity": 4.52,
+      "HH_0_car": 0,
+      "WK_0_car": 4.57,
+      "walkscore": 15.31,
+      "customer_a": 0.03,
+      "high_dev": 9.2,
+      "avlb_land": 29.96,
+      "Med_Hval": 12,
+      "stopname_2": "Yaphank",
+      "TOD_score": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.91588, 40.8256]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Riverhead",
+      "routename": "Ronkonkoma",
+      "streetname": "Hallett Ave",
+      "County": "Suffolk",
+      "stopname_1": "Riverhead",
+      "TCI": 3.23,
+      "job_access": 0.02,
+      "AT_ratio": 89.59,
+      "intensity": 15.66,
+      "HH_0_car": 20.64,
+      "WK_0_car": 2.56,
+      "walkscore": 79.59,
+      "customer_a": 0,
+      "high_dev": 21.79,
+      "avlb_land": 49.81,
+      "Med_Hval": 11.38,
+      "stopname_2": "Riverhead",
+      "TOD_score": 8.65
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.66691, 40.91983]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Mattituck",
+      "routename": "Ronkonkoma",
+      "streetname": "Pike St",
+      "County": "Suffolk",
+      "stopname_1": "Mattituck",
+      "TCI": 1.61,
+      "job_access": 0.05,
+      "AT_ratio": 91.19,
+      "intensity": 7.42,
+      "HH_0_car": 0,
+      "WK_0_car": 2.79,
+      "walkscore": 53.06,
+      "customer_a": 0.02,
+      "high_dev": 4.24,
+      "avlb_land": 46.11,
+      "Med_Hval": 38.28,
+      "stopname_2": "Mattituck",
+      "TOD_score": 5.29
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.53606, 40.99179]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Southold",
+      "routename": "Ronkonkoma",
+      "streetname": "Traveler St",
+      "County": "Suffolk",
+      "stopname_1": "Southold",
+      "TCI": 1.61,
+      "job_access": 0.04,
+      "AT_ratio": 83.27,
+      "intensity": 3.26,
+      "HH_0_car": 15.23,
+      "WK_0_car": 23.75,
+      "walkscore": 55.1,
+      "customer_a": 0.02,
+      "high_dev": 11.38,
+      "avlb_land": 42.41,
+      "Med_Hval": 21.79,
+      "stopname_2": "Southold",
+      "TOD_score": 7.5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.4281, 41.0662]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Greenport",
+      "routename": "Ronkonkoma",
+      "streetname": "Wiggins St",
+      "County": "Suffolk",
+      "stopname_1": "Greenport",
+      "TCI": 3.23,
+      "job_access": 0.02,
+      "AT_ratio": 82.83,
+      "intensity": 23.25,
+      "HH_0_car": 9.37,
+      "WK_0_car": 38.57,
+      "walkscore": 74.49,
+      "customer_a": 0,
+      "high_dev": 15.13,
+      "avlb_land": 21.21,
+      "Med_Hval": 25.93,
+      "stopname_2": "Greenport",
+      "TOD_score": 8.85
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.3631, 41.0997]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "St. Albans",
+      "routename": "Babylon",
+      "streetname": "Lovingham Pl",
+      "County": "Queens",
+      "stopname_1": "St. Albans",
+      "TCI": 22.58,
+      "job_access": 13.32,
+      "AT_ratio": 72.05,
+      "intensity": 30.26,
+      "HH_0_car": 21.08,
+      "WK_0_car": 42.03,
+      "walkscore": 75.51,
+      "customer_a": 29.74,
+      "high_dev": 30.02,
+      "avlb_land": 25.29,
+      "Med_Hval": 13.78,
+      "stopname_2": "St. Albans",
+      "TOD_score": 25.17
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.76551, 40.69118]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Locust Manor",
+      "routename": "Babylon",
+      "streetname": "Garrett St",
+      "County": "Queens",
+      "stopname_1": "Locust Manor",
+      "TCI": 32.26,
+      "job_access": 13.02,
+      "AT_ratio": 60.14,
+      "intensity": 81.16,
+      "HH_0_car": 51.1,
+      "WK_0_car": 62.21,
+      "walkscore": 70.41,
+      "customer_a": 32.91,
+      "high_dev": 25.3,
+      "avlb_land": 19.46,
+      "Med_Hval": 14.13,
+      "stopname_2": "Locust Manor",
+      "TOD_score": 33.65
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.76504, 40.67513]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Laurelton",
+      "routename": "Babylon",
+      "streetname": "224th St",
+      "County": "Queens",
+      "stopname_1": "Laurelton",
+      "TCI": 16.13,
+      "job_access": 10.6,
+      "AT_ratio": 89.15,
+      "intensity": 25.11,
+      "HH_0_car": 25.92,
+      "WK_0_car": 58.42,
+      "walkscore": 74.49,
+      "customer_a": 22.04,
+      "high_dev": 33.05,
+      "avlb_land": 19.65,
+      "Med_Hval": 12.94,
+      "stopname_2": "Laurelton",
+      "TOD_score": 23.76
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.75175, 40.66847]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Rosedale",
+      "routename": "Babylon",
+      "streetname": "Francis Lewis Blvd",
+      "County": "Queens",
+      "stopname_1": "Rosedale",
+      "TCI": 30.65,
+      "job_access": 7.05,
+      "AT_ratio": 88.71,
+      "intensity": 36.42,
+      "HH_0_car": 19.18,
+      "WK_0_car": 46.82,
+      "walkscore": 70.41,
+      "customer_a": 17.47,
+      "high_dev": 29.66,
+      "avlb_land": 17.32,
+      "Med_Hval": 17.62,
+      "stopname_2": "Rosedale",
+      "TOD_score": 22.58
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.73555, 40.66594]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Valley Stream",
+      "routename": "Far Rockaway",
+      "streetname": "Station Plz",
+      "County": "Nassau",
+      "stopname_1": "Valley Stream",
+      "TCI": 19.35,
+      "job_access": 11.65,
+      "AT_ratio": 73.91,
+      "intensity": 89.73,
+      "HH_0_car": 13.62,
+      "WK_0_car": 19.4,
+      "walkscore": 64.29,
+      "customer_a": 20.98,
+      "high_dev": 44.79,
+      "avlb_land": 21.01,
+      "Med_Hval": 13.96,
+      "stopname_2": "Valley Stream",
+      "TOD_score": 22.65
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.70476, 40.66151]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Westwood",
+      "routename": "West Hempstead",
+      "streetname": "Whitehall St",
+      "County": "Nassau",
+      "stopname_1": "Westwood",
+      "TCI": 9.68,
+      "job_access": 8.49,
+      "AT_ratio": 73.91,
+      "intensity": 31.76,
+      "HH_0_car": 19.62,
+      "WK_0_car": 10.93,
+      "walkscore": 87.76,
+      "customer_a": 12.84,
+      "high_dev": 3.87,
+      "avlb_land": 69.26,
+      "Med_Hval": 17.65,
+      "stopname_2": "Westwood",
+      "TOD_score": 15.69
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.68121, 40.66836]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Malverne",
+      "routename": "West Hempstead",
+      "streetname": "Hempstead Ave",
+      "County": "Nassau",
+      "stopname_1": "Malverne",
+      "TCI": 9.68,
+      "job_access": 9.25,
+      "AT_ratio": 71.79,
+      "intensity": 64.24,
+      "HH_0_car": 4.98,
+      "WK_0_car": 17.61,
+      "walkscore": 64.29,
+      "customer_a": 9.8,
+      "high_dev": 7.38,
+      "avlb_land": 63.81,
+      "Med_Hval": 17.58,
+      "stopname_2": "Malverne",
+      "TOD_score": 14.38
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.66886, 40.67547]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Lakeview",
+      "routename": "West Hempstead",
+      "streetname": "Woodfield Rd",
+      "County": "Nassau",
+      "stopname_1": "Lakeview",
+      "TCI": 6.45,
+      "job_access": 6.1,
+      "AT_ratio": 62,
+      "intensity": 25.44,
+      "HH_0_car": 4.54,
+      "WK_0_car": 10.7,
+      "walkscore": 36.73,
+      "customer_a": 6.13,
+      "high_dev": 6.17,
+      "avlb_land": 58.95,
+      "Med_Hval": 14.29,
+      "stopname_2": "Lakeview",
+      "TOD_score": 8.34
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.65214, 40.68585]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Hempstead Gardens",
+      "routename": "West Hempstead",
+      "streetname": "Hempstead Gardens Dr",
+      "County": "Nassau",
+      "stopname_1": "Hempstead Gardens",
+      "TCI": 8.06,
+      "job_access": 8.59,
+      "AT_ratio": 62.73,
+      "intensity": 61.8,
+      "HH_0_car": 2.64,
+      "WK_0_car": 11.93,
+      "walkscore": 58.16,
+      "customer_a": 9.18,
+      "high_dev": 2.06,
+      "avlb_land": 52.92,
+      "Med_Hval": 10.75,
+      "stopname_2": "Hempstead Gardens",
+      "TOD_score": 10.81
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.64621, 40.69491]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "West Hempstead",
+      "routename": "West Hempstead",
+      "streetname": "Hempstead Ave",
+      "County": "Nassau",
+      "stopname_1": "West Hempstead",
+      "TCI": 14.52,
+      "job_access": 8.34,
+      "AT_ratio": 58.09,
+      "intensity": 43.02,
+      "HH_0_car": 22.25,
+      "WK_0_car": 29.32,
+      "walkscore": 64.29,
+      "customer_a": 9.07,
+      "high_dev": 38.74,
+      "avlb_land": 29.96,
+      "Med_Hval": 11.44,
+      "stopname_2": "West Hempstead",
+      "TOD_score": 17.13
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.64164, 40.70195]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Gibson",
+      "routename": "Far Rockaway",
+      "streetname": "Cochran Pl",
+      "County": "Nassau",
+      "stopname_1": "Gibson",
+      "TCI": 16.13,
+      "job_access": 4.19,
+      "AT_ratio": 54,
+      "intensity": 34.36,
+      "HH_0_car": 22.55,
+      "WK_0_car": 18.06,
+      "walkscore": 65.31,
+      "customer_a": 10.88,
+      "high_dev": 22.15,
+      "avlb_land": 22.96,
+      "Med_Hval": 10.99,
+      "stopname_2": "Gibson",
+      "TOD_score": 13.51
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.70183, 40.64924]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Hewlett",
+      "routename": "Far Rockaway",
+      "streetname": "Railroad Ave",
+      "County": "Nassau",
+      "stopname_1": "Hewlett",
+      "TCI": 12.9,
+      "job_access": 4.89,
+      "AT_ratio": 53.78,
+      "intensity": 40.28,
+      "HH_0_car": 9.81,
+      "WK_0_car": 36.45,
+      "walkscore": 78.57,
+      "customer_a": 10.13,
+      "high_dev": 32.81,
+      "avlb_land": 39.88,
+      "Med_Hval": 13.18,
+      "stopname_2": "Hewlett",
+      "TOD_score": 15.15
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.70514, 40.63676]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Woodmere",
+      "routename": "Far Rockaway",
+      "streetname": "Cedar Ln",
+      "County": "Nassau",
+      "stopname_1": "Woodmere",
+      "TCI": 9.68,
+      "job_access": 4.13,
+      "AT_ratio": 50.35,
+      "intensity": 34.86,
+      "HH_0_car": 3.66,
+      "WK_0_car": 31.44,
+      "walkscore": 51.02,
+      "customer_a": 7.65,
+      "high_dev": 11.5,
+      "avlb_land": 65.95,
+      "Med_Hval": 31.24,
+      "stopname_2": "Woodmere",
+      "TOD_score": 12.56
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.71371, 40.63133]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Cedarhurst",
+      "routename": "Far Rockaway",
+      "streetname": "Chestnut St",
+      "County": "Nassau",
+      "stopname_1": "Cedarhurst",
+      "TCI": 11.29,
+      "job_access": 3.26,
+      "AT_ratio": 55.64,
+      "intensity": 19.06,
+      "HH_0_car": 38.95,
+      "WK_0_car": 49.39,
+      "walkscore": 87.76,
+      "customer_a": 7.29,
+      "high_dev": 40.68,
+      "avlb_land": 24.12,
+      "Med_Hval": 17.43,
+      "stopname_2": "Cedarhurst",
+      "TOD_score": 18.36
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.72618, 40.62217]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Lawrence",
+      "routename": "Far Rockaway",
+      "streetname": "Station Plz",
+      "County": "Nassau",
+      "stopname_1": "Lawrence",
+      "TCI": 11.29,
+      "job_access": 2.94,
+      "AT_ratio": 59.19,
+      "intensity": 55.59,
+      "HH_0_car": 35.58,
+      "WK_0_car": 10.81,
+      "walkscore": 80.61,
+      "customer_a": 6.97,
+      "high_dev": 27.12,
+      "avlb_land": 39.3,
+      "Med_Hval": 12.83,
+      "stopname_2": "Lawrence",
+      "TOD_score": 15.46
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.7359, 40.61573]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Inwood",
+      "routename": "Far Rockaway",
+      "streetname": "State Rte 878",
+      "County": "Nassau",
+      "stopname_1": "Inwood",
+      "TCI": 19.35,
+      "job_access": 2.03,
+      "AT_ratio": 52.43,
+      "intensity": 35.87,
+      "HH_0_car": 50.81,
+      "WK_0_car": 51.95,
+      "walkscore": 95.92,
+      "customer_a": 5.79,
+      "high_dev": 34.99,
+      "avlb_land": 22.18,
+      "Med_Hval": 14.35,
+      "stopname_2": "Inwood",
+      "TOD_score": 20.58
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.74418, 40.61228]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Far Rockaway",
+      "routename": "Far Rockaway",
+      "streetname": "Redfern Ave",
+      "County": "Queens",
+      "stopname_1": "Far Rockaway",
+      "TCI": 27.42,
+      "job_access": 2.4,
+      "AT_ratio": 45.12,
+      "intensity": 43.62,
+      "HH_0_car": 66.91,
+      "WK_0_car": 71.91,
+      "walkscore": 77.55,
+      "customer_a": 7.27,
+      "high_dev": 45.52,
+      "avlb_land": 15.37,
+      "Med_Hval": 15.38,
+      "stopname_2": "Far Rockaway",
+      "TOD_score": 26.3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.75054, 40.60913]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Lynbrook",
+      "routename": "Long Beach",
+      "streetname": "State Rte 27",
+      "County": "Nassau",
+      "stopname_1": "Lynbrook",
+      "TCI": 24.19,
+      "job_access": 9.15,
+      "AT_ratio": 46.62,
+      "intensity": 66.46,
+      "HH_0_car": 12.74,
+      "WK_0_car": 34.78,
+      "walkscore": 73.47,
+      "customer_a": 17.14,
+      "high_dev": 53.15,
+      "avlb_land": 15.18,
+      "Med_Hval": 4.79,
+      "stopname_2": "Lynbrook",
+      "TOD_score": 20.65
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.67607, 40.65605]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Centre Avenue",
+      "routename": "Long Beach",
+      "streetname": "Lester Dr",
+      "County": "Nassau",
+      "stopname_1": "Centre Avenue",
+      "TCI": 11.29,
+      "job_access": 4.6,
+      "AT_ratio": 43.48,
+      "intensity": 70.04,
+      "HH_0_car": 22.11,
+      "WK_0_car": 28.99,
+      "walkscore": 77.55,
+      "customer_a": 8.79,
+      "high_dev": 15.86,
+      "avlb_land": 39.69,
+      "Med_Hval": 15.06,
+      "stopname_2": "Centre Avenue",
+      "TOD_score": 14.89
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.66397, 40.64831]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "East Rockaway",
+      "routename": "Long Beach",
+      "streetname": "Station Plz",
+      "County": "Nassau",
+      "stopname_1": "East Rockaway",
+      "TCI": 9.68,
+      "job_access": 4.8,
+      "AT_ratio": 48.15,
+      "intensity": 42.94,
+      "HH_0_car": 24.45,
+      "WK_0_car": 20.74,
+      "walkscore": 70.41,
+      "customer_a": 8.21,
+      "high_dev": 40.56,
+      "avlb_land": 20.04,
+      "Med_Hval": 19.44,
+      "stopname_2": "East Rockaway",
+      "TOD_score": 14.85
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.65821, 40.6422]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Oceanside",
+      "routename": "Long Beach",
+      "streetname": "Royal Ave",
+      "County": "Nassau",
+      "stopname_1": "Oceanside",
+      "TCI": 4.84,
+      "job_access": 3.82,
+      "AT_ratio": 42.75,
+      "intensity": 52.57,
+      "HH_0_car": 3.66,
+      "WK_0_car": 33.56,
+      "walkscore": 57.14,
+      "customer_a": 6.89,
+      "high_dev": 36.56,
+      "avlb_land": 8.56,
+      "Med_Hval": 13.79,
+      "stopname_2": "Oceanside",
+      "TOD_score": 10.03
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.65466, 40.63471]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Island Park",
+      "routename": "Long Beach",
+      "streetname": "Nassau Ln",
+      "County": "Nassau",
+      "stopname_1": "Island Park",
+      "TCI": 11.29,
+      "job_access": 2.49,
+      "AT_ratio": 40.15,
+      "intensity": 47.84,
+      "HH_0_car": 37.63,
+      "WK_0_car": 19.29,
+      "walkscore": 73.47,
+      "customer_a": 3.52,
+      "high_dev": 53.03,
+      "avlb_land": 1.17,
+      "Med_Hval": 11.07,
+      "stopname_2": "Island Park",
+      "TOD_score": 14.39
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.65474, 40.60129]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Long Beach",
+      "routename": "Long Beach",
+      "streetname": "Park Pl",
+      "County": "Nassau",
+      "stopname_1": "Long Beach",
+      "TCI": 14.52,
+      "job_access": 1.81,
+      "AT_ratio": 39.06,
+      "intensity": 34.31,
+      "HH_0_car": 70.13,
+      "WK_0_car": 56.74,
+      "walkscore": 67.35,
+      "customer_a": 3.89,
+      "high_dev": 59.93,
+      "avlb_land": 5.45,
+      "Med_Hval": 21.79,
+      "stopname_2": "Long Beach",
+      "TOD_score": 23.01
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.66482, 40.59017]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Rockville Centre",
+      "routename": "Babylon",
+      "streetname": "Front St",
+      "County": "Nassau",
+      "stopname_1": "Rockville Centre",
+      "TCI": 16.13,
+      "job_access": 8.39,
+      "AT_ratio": 32.7,
+      "intensity": 41.57,
+      "HH_0_car": 31.48,
+      "WK_0_car": 26.98,
+      "walkscore": 61.22,
+      "customer_a": 13.65,
+      "high_dev": 68.52,
+      "avlb_land": 8.75,
+      "Med_Hval": 7.67,
+      "stopname_2": "Rockville Centre",
+      "TOD_score": 19.7
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.64655, 40.65831]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Baldwin",
+      "routename": "Babylon",
+      "streetname": "Brooklyn Ave",
+      "County": "Nassau",
+      "stopname_1": "Baldwin",
+      "TCI": 16.13,
+      "job_access": 6.14,
+      "AT_ratio": 30.87,
+      "intensity": 39.02,
+      "HH_0_car": 20.94,
+      "WK_0_car": 28.43,
+      "walkscore": 64.29,
+      "customer_a": 9.67,
+      "high_dev": 27.85,
+      "avlb_land": 43.97,
+      "Med_Hval": 12.39,
+      "stopname_2": "Baldwin",
+      "TOD_score": 15.17
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.60716, 40.65672]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Freeport",
+      "routename": "Babylon",
+      "streetname": "Freeport Plz E",
+      "County": "Nassau",
+      "stopname_1": "Freeport",
+      "TCI": 19.35,
+      "job_access": 8.58,
+      "AT_ratio": 28.94,
+      "intensity": 40.09,
+      "HH_0_car": 83.31,
+      "WK_0_car": 36.12,
+      "walkscore": 66.33,
+      "customer_a": 10.48,
+      "high_dev": 67.31,
+      "avlb_land": 7.59,
+      "Med_Hval": 12.22,
+      "stopname_2": "Freeport",
+      "TOD_score": 27.29
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.58232, 40.65745]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Merrick",
+      "routename": "Babylon",
+      "streetname": "Kees Pl",
+      "County": "Nassau",
+      "stopname_1": "Merrick",
+      "TCI": 6.45,
+      "job_access": 5.88,
+      "AT_ratio": 26.64,
+      "intensity": 64.76,
+      "HH_0_car": 0,
+      "WK_0_car": 30.1,
+      "walkscore": 55.1,
+      "customer_a": 6.62,
+      "high_dev": 24.21,
+      "avlb_land": 50.97,
+      "Med_Hval": 28.41,
+      "stopname_2": "Merrick",
+      "TOD_score": 12.07
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.55062, 40.66379]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Bellmore",
+      "routename": "Babylon",
+      "streetname": "Pettit Ave",
+      "County": "Nassau",
+      "stopname_1": "Bellmore",
+      "TCI": 9.68,
+      "job_access": 5.74,
+      "AT_ratio": 26.42,
+      "intensity": 26.73,
+      "HH_0_car": 4.69,
+      "WK_0_car": 13.49,
+      "walkscore": 81.63,
+      "customer_a": 6.07,
+      "high_dev": 40.56,
+      "avlb_land": 28.21,
+      "Med_Hval": 16.99,
+      "stopname_2": "Bellmore",
+      "TOD_score": 10.29
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.52886, 40.66879]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Wantagh",
+      "routename": "Babylon",
+      "streetname": "Station Plz",
+      "County": "Nassau",
+      "stopname_1": "Wantagh",
+      "TCI": 8.06,
+      "job_access": 5.26,
+      "AT_ratio": 26.23,
+      "intensity": 40.03,
+      "HH_0_car": 4.69,
+      "WK_0_car": 19.06,
+      "walkscore": 52.04,
+      "customer_a": 5.29,
+      "high_dev": 24.46,
+      "avlb_land": 43.19,
+      "Med_Hval": 17.36,
+      "stopname_2": "Wantagh",
+      "TOD_score": 9.3
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.50896, 40.67298]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Seaford",
+      "routename": "Babylon",
+      "streetname": "Brooklyn Ave",
+      "County": "Nassau",
+      "stopname_1": "Seaford",
+      "TCI": 11.29,
+      "job_access": 6.16,
+      "AT_ratio": 26.01,
+      "intensity": 28.61,
+      "HH_0_car": 5.56,
+      "WK_0_car": 4.46,
+      "walkscore": 77.55,
+      "customer_a": 6.24,
+      "high_dev": 12.83,
+      "avlb_land": 49.03,
+      "Med_Hval": 16.64,
+      "stopname_2": "Seaford",
+      "TOD_score": 8.64
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.48657, 40.67572]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Massapequa",
+      "routename": "Babylon",
+      "streetname": "Veterans Blvd",
+      "County": "Nassau",
+      "stopname_1": "Massapequa",
+      "TCI": 11.29,
+      "job_access": 6.85,
+      "AT_ratio": 24.52,
+      "intensity": 65.22,
+      "HH_0_car": 1.61,
+      "WK_0_car": 19.62,
+      "walkscore": 45.92,
+      "customer_a": 6.19,
+      "high_dev": 23.61,
+      "avlb_land": 31.91,
+      "Med_Hval": 17.69,
+      "stopname_2": "Massapequa",
+      "TOD_score": 10.27
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.46905, 40.67692]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Massapequa Park",
+      "routename": "Babylon",
+      "streetname": "Front St",
+      "County": "Nassau",
+      "stopname_1": "Massapequa Park",
+      "TCI": 12.9,
+      "job_access": 6.57,
+      "AT_ratio": 1.28,
+      "intensity": 24.53,
+      "HH_0_car": 0,
+      "WK_0_car": 18.17,
+      "walkscore": 43.88,
+      "customer_a": 5.82,
+      "high_dev": 15.98,
+      "avlb_land": 81.71,
+      "Med_Hval": 16.19,
+      "stopname_2": "Massapequa Park",
+      "TOD_score": 9.13
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.45474, 40.67785]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Amityville",
+      "routename": "Babylon",
+      "streetname": "Ketcham Ave",
+      "County": "Suffolk",
+      "stopname_1": "Amityville",
+      "TCI": 14.52,
+      "job_access": 8.96,
+      "AT_ratio": 1.32,
+      "intensity": 59.23,
+      "HH_0_car": 24.16,
+      "WK_0_car": 35.79,
+      "walkscore": 84.69,
+      "customer_a": 6.96,
+      "high_dev": 32.81,
+      "avlb_land": 40.27,
+      "Med_Hval": 7.54,
+      "stopname_2": "Amityville",
+      "TOD_score": 15.83
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.42031, 40.68024]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Copiague",
+      "routename": "Babylon",
+      "streetname": "Marconi Blvd",
+      "County": "Suffolk",
+      "stopname_1": "Copiague",
+      "TCI": 11.29,
+      "job_access": 6.56,
+      "AT_ratio": 2.27,
+      "intensity": 69.72,
+      "HH_0_car": 24.16,
+      "WK_0_car": 8.7,
+      "walkscore": 55.1,
+      "customer_a": 4.52,
+      "high_dev": 20.22,
+      "avlb_land": 43.19,
+      "Med_Hval": 6.8,
+      "stopname_2": "Copiague",
+      "TOD_score": 10.79
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.39834, 40.68101]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Lindenhurst",
+      "routename": "Babylon",
+      "streetname": "E Hoffman Ave",
+      "County": "Suffolk",
+      "stopname_1": "Lindenhurst",
+      "TCI": 11.29,
+      "job_access": 4.61,
+      "AT_ratio": 0.84,
+      "intensity": 85.19,
+      "HH_0_car": 7.47,
+      "WK_0_car": 8.36,
+      "walkscore": 56.12,
+      "customer_a": 3.93,
+      "high_dev": 26.51,
+      "avlb_land": 37.16,
+      "Med_Hval": 10.46,
+      "stopname_2": "Lindenhurst",
+      "TOD_score": 8.97
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.36921, 40.68826]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Babylon",
+      "routename": "Montauk",
+      "streetname": "Station Pl",
+      "County": "Suffolk",
+      "stopname_1": "Babylon",
+      "TCI": 14.52,
+      "job_access": 7.87,
+      "AT_ratio": 0,
+      "intensity": 20.45,
+      "HH_0_car": 17.72,
+      "WK_0_car": 7.13,
+      "walkscore": 86.73,
+      "customer_a": 5.54,
+      "high_dev": 28.33,
+      "avlb_land": 46.11,
+      "Med_Hval": 30.29,
+      "stopname_2": "Babylon",
+      "TOD_score": 12.5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.32405, 40.70068]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Bay Shore",
+      "routename": "Montauk",
+      "streetname": "N Park Ave",
+      "County": "Suffolk",
+      "stopname_1": "Bay Shore",
+      "TCI": 8.06,
+      "job_access": 3.86,
+      "AT_ratio": 1.68,
+      "intensity": 27.11,
+      "HH_0_car": 65.3,
+      "WK_0_car": 21.85,
+      "walkscore": 50,
+      "customer_a": 3.06,
+      "high_dev": 23.85,
+      "avlb_land": 41.25,
+      "Med_Hval": 5.28,
+      "stopname_2": "Bay Shore",
+      "TOD_score": 13.98
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.25408, 40.72443]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Islip",
+      "routename": "Montauk",
+      "streetname": "Islip Ave",
+      "County": "Suffolk",
+      "stopname_1": "Islip",
+      "TCI": 4.84,
+      "job_access": 2.39,
+      "AT_ratio": 3.91,
+      "intensity": 66.57,
+      "HH_0_car": 3.81,
+      "WK_0_car": 11.93,
+      "walkscore": 38.78,
+      "customer_a": 1.88,
+      "high_dev": 14.16,
+      "avlb_land": 74.71,
+      "Med_Hval": 12.29,
+      "stopname_2": "Islip",
+      "TOD_score": 6.52
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.20932, 40.73583]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Great River",
+      "routename": "Montauk",
+      "streetname": "Hawthorne Ave",
+      "County": "Suffolk",
+      "stopname_1": "Great River",
+      "TCI": 3.23,
+      "job_access": 3.44,
+      "AT_ratio": 3.4,
+      "intensity": 25.79,
+      "HH_0_car": 0,
+      "WK_0_car": 0,
+      "walkscore": 10.2,
+      "customer_a": 2.52,
+      "high_dev": 1.45,
+      "avlb_land": 66.34,
+      "Med_Hval": 11.28,
+      "stopname_2": "Great River",
+      "TOD_score": 1.41
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.17019, 40.74044]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Oakdale",
+      "routename": "Montauk",
+      "streetname": "Montauk Blvd",
+      "County": "Suffolk",
+      "stopname_1": "Oakdale",
+      "TCI": 4.84,
+      "job_access": 3.07,
+      "AT_ratio": 4.49,
+      "intensity": 44.09,
+      "HH_0_car": 8.05,
+      "WK_0_car": 4.35,
+      "walkscore": 41.84,
+      "customer_a": 2.27,
+      "high_dev": 15.01,
+      "avlb_land": 51.75,
+      "Med_Hval": 8.99,
+      "stopname_2": "Oakdale",
+      "TOD_score": 4.67
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.13243, 40.74342]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Sayville",
+      "routename": "Montauk",
+      "streetname": "Depot St",
+      "County": "Suffolk",
+      "stopname_1": "Sayville",
+      "TCI": 6.45,
+      "job_access": 2.74,
+      "AT_ratio": 2.92,
+      "intensity": 31.87,
+      "HH_0_car": 12.01,
+      "WK_0_car": 13.6,
+      "walkscore": 33.67,
+      "customer_a": 1.84,
+      "high_dev": 10.29,
+      "avlb_land": 74.51,
+      "Med_Hval": 14.92,
+      "stopname_2": "Sayville",
+      "TOD_score": 6.46
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.08645, 40.74035]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Patchogue",
+      "routename": "Montauk",
+      "streetname": "Funaro Ct",
+      "County": "Suffolk",
+      "stopname_1": "Patchogue",
+      "TCI": 8.06,
+      "job_access": 5.91,
+      "AT_ratio": 4.75,
+      "intensity": 76.64,
+      "HH_0_car": 42.46,
+      "WK_0_car": 20.85,
+      "walkscore": 85.71,
+      "customer_a": 3.81,
+      "high_dev": 41.77,
+      "avlb_land": 34.05,
+      "Med_Hval": 9.02,
+      "stopname_2": "Patchogue",
+      "TOD_score": 16
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.01574, 40.76187]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Bellport",
+      "routename": "Montauk",
+      "streetname": "Montauk Hwy",
+      "County": "Suffolk",
+      "stopname_1": "Bellport",
+      "TCI": 1.61,
+      "job_access": 1.54,
+      "AT_ratio": 5.74,
+      "intensity": 31.93,
+      "HH_0_car": 18.74,
+      "WK_0_car": 6.69,
+      "walkscore": 53.06,
+      "customer_a": 0.76,
+      "high_dev": 1.09,
+      "avlb_land": 71.01,
+      "Med_Hval": 0,
+      "stopname_2": "Bellport",
+      "TOD_score": 3.74
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.94396, 40.77373]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Mastic Shirley",
+      "routename": "Montauk",
+      "streetname": "Northern Blvd",
+      "County": "Suffolk",
+      "stopname_1": "Mastic Shirley",
+      "TCI": 1.61,
+      "job_access": 1.37,
+      "AT_ratio": 6.21,
+      "intensity": 34.15,
+      "HH_0_car": 4.1,
+      "WK_0_car": 3.9,
+      "walkscore": 68.37,
+      "customer_a": 0.54,
+      "high_dev": 24.33,
+      "avlb_land": 62.26,
+      "Med_Hval": 5.62,
+      "stopname_2": "Mastic Shirley",
+      "TOD_score": 4.04
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.86442, 40.79898]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Speonk",
+      "routename": "Montauk",
+      "streetname": "N Phillips Ave",
+      "County": "Suffolk",
+      "stopname_1": "Speonk",
+      "TCI": 1.61,
+      "job_access": 0.06,
+      "AT_ratio": 9.21,
+      "intensity": 20.87,
+      "HH_0_car": 4.54,
+      "WK_0_car": 4.01,
+      "walkscore": 37.76,
+      "customer_a": 0.05,
+      "high_dev": 5.81,
+      "avlb_land": 47.28,
+      "Med_Hval": 21.86,
+      "stopname_2": "Speonk",
+      "TOD_score": 1.5
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.70427, 40.82117]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Westhampton",
+      "routename": "Montauk",
+      "streetname": "Depot Rd",
+      "County": "Suffolk",
+      "stopname_1": "Westhampton",
+      "TCI": 1.61,
+      "job_access": 0.03,
+      "AT_ratio": 10.19,
+      "intensity": 13.44,
+      "HH_0_car": 7.47,
+      "WK_0_car": 10.26,
+      "walkscore": 14.29,
+      "customer_a": 0.03,
+      "high_dev": 4.6,
+      "avlb_land": 38.13,
+      "Med_Hval": 28.83,
+      "stopname_2": "Westhampton",
+      "TOD_score": 1.6
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.65032, 40.8303]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Hampton Bays",
+      "routename": "Montauk",
+      "streetname": "Good Ground Rd",
+      "County": "Suffolk",
+      "stopname_1": "Hampton Bays",
+      "TCI": 1.61,
+      "job_access": 0.04,
+      "AT_ratio": 11.36,
+      "intensity": 21.22,
+      "HH_0_car": 23.28,
+      "WK_0_car": 11.93,
+      "walkscore": 34.69,
+      "customer_a": 0.02,
+      "high_dev": 7.51,
+      "avlb_land": 61.28,
+      "Med_Hval": 24.41,
+      "stopname_2": "Hampton Bays",
+      "TOD_score": 5.72
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.52395, 40.8766]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Southampton",
+      "routename": "Montauk",
+      "streetname": "Powell Ave",
+      "County": "Suffolk",
+      "stopname_1": "Southampton",
+      "TCI": 1.61,
+      "job_access": 0.02,
+      "AT_ratio": 12.86,
+      "intensity": 19.61,
+      "HH_0_car": 4.39,
+      "WK_0_car": 24.41,
+      "walkscore": 12.24,
+      "customer_a": 0.02,
+      "high_dev": 6.05,
+      "avlb_land": 80.16,
+      "Med_Hval": 51.4,
+      "stopname_2": "Southampton",
+      "TOD_score": 6.71
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.39012, 40.89471]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Bridgehampton",
+      "routename": "Montauk",
+      "streetname": "Maple Ln",
+      "County": "Suffolk",
+      "stopname_1": "Bridgehampton",
+      "TCI": 0,
+      "job_access": 0.02,
+      "AT_ratio": 13.01,
+      "intensity": 3.83,
+      "HH_0_car": 15.08,
+      "WK_0_car": 3.01,
+      "walkscore": 52.04,
+      "customer_a": 0.02,
+      "high_dev": 4.96,
+      "avlb_land": 44.94,
+      "Med_Hval": 47.96,
+      "stopname_2": "Bridgehampton",
+      "TOD_score": 4.4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.31005, 40.93898]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "East Hampton",
+      "routename": "Montauk",
+      "streetname": "Railroad Ave",
+      "County": "Suffolk",
+      "stopname_1": "East Hampton",
+      "TCI": 1.61,
+      "job_access": 0.01,
+      "AT_ratio": 13.15,
+      "intensity": 15.12,
+      "HH_0_car": 8.2,
+      "WK_0_car": 22.19,
+      "walkscore": 57.14,
+      "customer_a": 0.01,
+      "high_dev": 11.26,
+      "avlb_land": 60.7,
+      "Med_Hval": 61.2,
+      "stopname_2": "East Hampton",
+      "TOD_score": 8.19
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.19324, 40.96508]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Amagansett",
+      "routename": "Montauk",
+      "streetname": "Montauk Hwy",
+      "County": "Suffolk",
+      "stopname_1": "Amagansett",
+      "TCI": 0,
+      "job_access": 0.02,
+      "AT_ratio": 13.3,
+      "intensity": 0,
+      "HH_0_car": 10.4,
+      "WK_0_car": 4.79,
+      "walkscore": 0,
+      "customer_a": 0.01,
+      "high_dev": 1.45,
+      "avlb_land": 32.3,
+      "Med_Hval": 90.78,
+      "stopname_2": "Amagansett",
+      "TOD_score": 5.28
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-72.13233, 40.98003]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "stopname": "Montauk",
+      "routename": "Montauk",
+      "streetname": "Rough Riders Lndg",
+      "County": "Suffolk",
+      "stopname_1": "Montauk",
+      "TCI": 0,
+      "job_access": 0,
+      "AT_ratio": 14.4,
+      "intensity": 2.33,
+      "HH_0_car": 3.07,
+      "WK_0_car": 14.94,
+      "walkscore": 27.55,
+      "customer_a": 0,
+      "high_dev": 6.05,
+      "avlb_land": 28.79,
+      "Med_Hval": 36.3,
+      "stopname_2": "Montauk",
+      "TOD_score": 1.4
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-71.95388, 41.0471]
+    }
+  }]
+}
