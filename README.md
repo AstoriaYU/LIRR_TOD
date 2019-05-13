@@ -9,10 +9,6 @@ such as developers, decision-makers, researchers, and business owners.
 
 ## The data
 
-Geospatial applications are all about working with data. What datasets
-would you plan/like to use? If the data you'll be working with isn't
-already stored in a way that you can use, how will you be storing your data?
-
 ### Study Area
 
 - Along the proposed high-speed rail line between New York and Boston, only 
